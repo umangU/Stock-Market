@@ -15,7 +15,7 @@ import warnings
 
 warnings.filterwarnings("ignore")
 
-# Defining Global Functions
+#Defining Global Functions
 def tsplot(y, lags=None, figsize=(12, 7)):
     if not isinstance(y, pd.Series):
         y = pd.Series(y)
