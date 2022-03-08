@@ -106,7 +106,7 @@ yhat_arma_df = pd.DataFrame(yhat_arma)
 yhat_arma_df.index = target_test.index
 plot_forecast(target_train, target_test, yhat_arma_df)
 
-# ARIMA model
+#ARIMA model
 
 forecaster = pm.auto_arima(target_train,
                        start_p=0,
